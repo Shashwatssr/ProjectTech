@@ -8,7 +8,7 @@ This Java project aims to implement a Sudoku game and a Sudoku solver using Java
    - A graphical interface to play Sudoku puzzles.
    - User-friendly design with easy navigation.
    - Ability to input numbers and validate solutions.
-   - Option to generate random Sudoku puzzles.
+
 
 2. **Sudoku Solver**
    - Implementation of a backtracking algorithm to solve Sudoku puzzles.
