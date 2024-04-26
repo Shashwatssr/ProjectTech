@@ -25,21 +25,46 @@ public class Sudoku extends JFrame implements ActionListener {
         }
 
       
-        board[0][0] = 3;
-        board[0][2] = 6;
-        board[0][3]=5;
-        board[0][5]=8;
-        board[0][6]=4;
-        board[1][0] = 5;
-        board[1][1] = 2;
-        board[3][6]=8;
-        board[6][0]=1;
-        board[6][1]=3;
-        board[7][7]=7;
-        board[7][8]=4;
-        board[8][2]=5;
-        board[8][3]=2;
-        board[8][8]=8;
+       
+// Example board provided for demonstration
+board[0][0] = 3;
+board[0][2] = 6;
+board[0][3] = 5;
+board[0][5] = 8;
+board[0][6] = 4;
+board[1][0] = 5;
+board[1][1] = 2;
+board[1][5] = 3;
+board[1][6] = 9;
+board[2][1] = 8;
+board[2][2] = 7;
+board[2][7] = 6;
+board[2][8] = 1;
+board[3][0] = 8;
+board[3][3] = 2;
+board[3][4] = 1;
+board[3][5] = 4;
+board[3][8] = 9;
+board[4][2] = 4;
+board[4][6] = 6;
+board[5][0] = 7;
+board[5][3] = 3;
+board[5][4] = 9;
+board[5][5] = 2;
+board[5][8] = 1;
+board[6][0] = 1;
+board[6][1] = 3;
+board[6][6] = 2;
+board[6][7] = 8;
+board[7][2] = 8;
+board[7][3] = 6;
+board[7][8] = 3;
+board[8][2] = 3;
+board[8][3] = 1;
+board[8][5] = 6;
+board[8][6] = 5;
+board[8][8] = 8;
+
       
         for (int i = 0; i < GRID_SIZE; i++) {
             for (int j = 0; j < GRID_SIZE; j++) {
