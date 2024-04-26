@@ -31,7 +31,7 @@ This Java project aims to implement a Sudoku game and a Sudoku solver using Java
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sudoku-solver.git
+   git clone https://github.com/Shashwatssr/ProjectTech
    ```
 2. Navigate to the project directory:
     ```cd sudoku-solver```
